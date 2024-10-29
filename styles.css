@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('bg.jpeg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white; /* Change text color for better contrast */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none; /* Remove border */
+    border-bottom: 2px solid white; /* Add underline effect */
+    background: transparent; /* Make background transparent */
+    color: white; /* Change text color for input */
+}
+
+input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Placeholder color */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
